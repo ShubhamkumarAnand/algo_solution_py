@@ -8,7 +8,7 @@ def validateSubsequence(array, subsequence):
         arrIdx += 1
     return subIdx == len(subsequence)
 
-
+# O(n) | O(1)
 def validateSubsequenceFor(array, subsequence):
     subIdx = 0
     for value in array:
